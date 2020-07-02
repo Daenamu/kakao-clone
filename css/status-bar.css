@@ -1,8 +1,8 @@
 .status-bar {
+  color: #656565;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
-  color: #656565;
 }
 
 .status-bar i {
