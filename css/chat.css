@@ -42,3 +42,50 @@
 .chats-body .status-bar {
     padding:0 20px;
 }
+.chat__messages {
+    border-top:1px solid #f7f7f7;
+    padding: 0 20px;
+    padding-top:30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat__timestamp {
+    background-color: white;
+    font-size: 12px;
+    font-weight:700;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow:rgba(0,0,0,0.3) 0px 8px 16px -8px,
+    rgba(0,0,0,0.024) 0px -6px 16px -6px;
+    text-transform: uppercase;
+}
+
+.message {
+    display:flex;
+    align-items: center;
+    width:50%;
+}
+.message__content  {
+    width: 80%;
+}
+.incoming-message  {
+    align-self: flex-start;
+}
+.incoming-message img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right:20px;
+}
+
+.outgoing-message {
+    align-self: flex-end;
+}
+.message__buble {
+    background-color: white;
+    box-shadow:rgba(0,0,0,0.3) 0px 8px 16px -8px,
+    rgba(0,0,0,0.024) 0px -6px 16px -6px;
+    padding:10px 20px;
+    border-radius: 20px;
+}
